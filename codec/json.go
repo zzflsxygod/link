@@ -3,9 +3,8 @@ package codec
 import (
 	"encoding/json"
 	"io"
+	"link"
 	"reflect"
-
-	"github.com/funny/link"
 )
 
 type JsonProtocol struct {

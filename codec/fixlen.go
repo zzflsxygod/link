@@ -5,9 +5,8 @@ import (
 	"encoding/binary"
 	"errors"
 	"io"
+	"link"
 	"math"
-
-	"github.com/funny/link"
 )
 
 var ErrTooLargePacket = errors.New("Too Large Packet")
