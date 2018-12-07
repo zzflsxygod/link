@@ -2,9 +2,8 @@ package codec
 
 import (
 	"bytes"
+	"link"
 	"testing"
-
-	"github.com/funny/link"
 )
 
 type MyMessage1 struct {
